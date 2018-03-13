@@ -27,7 +27,7 @@
             scope.addressArray=[];
             scope.formData.address=[];
             //familymembers
-            scope.formData.familyMembers=[];
+            //scope.formData.familyMembers=[];
             scope.familyArray=[];
             scope.datatables = [];
             scope.noOfTabs = 1;
@@ -436,7 +436,7 @@
 
                     temp.locale = scope.optlang.code;
                     temp.dateFormat = scope.df;
-                    scope.formData.familyMembers.push(temp);
+                    //scope.formData.familyMembers.push(temp);
                 }
 
                 //
